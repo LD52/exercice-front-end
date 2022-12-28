@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color:hsl(206, 94%, 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 70%;
+    border-radius: 15px;
+    display: flex;
+    background-color: white;
+}
+.card{
+    width: 40%;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.image{
+    display: flex;
+    position: relative;
+}
+.image img{
+    height: 490px;
+}
+.form1{
+    position: absolute;
+    margin: 25px 30px 15px 20px;
+    width: 80%;
+    height: 80%;
+}
+.premier{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.first-round{
+    border-radius: 100%;
+    border: white 1px solid;
+    width: 35px;
+    height: 30px; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin-top: 5px;
+}
+.scribe{
+    color: white;
+    opacity: 0.8;
+}
+.écriture{
+    color:hsl(213, 96%, 18%);
+}
+.premier-block{
+    width: 80%;
+    margin-left: 30px;
+    display: flexbox;
+}
+.top{
+    color:hsla(0, 1%, 60%, 0.603);
+}
+.sec{
+    background-color:  hsl(206, 94%, 87%);
+    border:none;
+
+}
+.etc{
+    width: 60%; 
+     margin-top: 40px;
+}
+
+.select{
+    margin-left: 20px;
+    color:hsl(213, 96%, 18%);
+}
+.the-option{
+    margin-left: 20px;
+    color:  hsla(0, 6%, 79%, 0.822); 
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.threes{
+    width: 80%;
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+.large{
+    margin-left: 20px;
+}
+.f{
+    border-radius: 9px;
+    border:  3px solid hsl(231, 11%, 63%);
+    width: 125px;
+    height: 137px;
+}
+.t{
+    border-radius: 9px;
+    border: 1px solid  hsl(231, 11%, 63%);
+    width: 125px;
+    height: 137px;
+}
+.th{
+    border-radius: 9px;
+    border: 1px solid hsl(231, 11%, 63%);
+    width: 125px;
+    height: 137px;
+}
+.les-trois{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.tierce{
+    color:hsl(213, 96%, 18%);
+    margin-bottom: 5px;
+    margin-left:10px;
+}
+.drei{
+    margin-bottom: 10px;
+    color:hsl(231, 11%, 63%);
+    font-weight: bold;
+    margin-left: 10px;
+}
+.bar{
+    border: hsl(217, 100%, 97%) solid 2px;
+    width: 74%;
+    margin-left: 20px;
+    background-color: hsl(217, 100%, 97%) ;
+    border-radius: 8px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-top: 30px;
+}
+.Monthly{
+    color:hsl(213, 96%, 18%);
+    margin-right: 40px;
+}
+.Yearly{
+    margin-left: 20px;
+    color:  hsla(0, 0%, 59%, 0.726);
+}
+.final{
+    width: 78%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.left{
+    margin-left: 27px;
+    color: hsla(0, 1%, 60%, 0.603);
+}
+.right{
+    border-radius: 9px;
+    background-color: hsl(213, 96%, 18%);
+    height: 45px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Next{
+    color: white;
+}
